@@ -3,51 +3,76 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Snap</title>
-    
+
     <link
       href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="./main.js" defer></script>
   </head>
   <body>
     <main>
-      <div>
+      <div class="navbar-wrap">
         <header>
-          <nav>
-            <img src="./assets/logo.svg" alt="" />
-            <li>Features</li>
-            <li>Company</li>
-            <li>Careers</li>
-            <li>About</li>
-            <div>
-              <button>Login</button>
-              <button>Register</button>
+         
+           <nav class="navbar">
+             <img class="logo" src="./assets/logo.svg" alt="" />
+             
+            <ul class="nav-menu">
+               <li class="nav-item">
+              <a href="" class="nav-link"> Features </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> Company </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> Careers </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> About </a>
+            </li>
+            </ul>
+           
+            <div class="log">
+              <button class="nav-link">Login</button>
+              <button class="nav-link" id="register">Register</button>
             </div>
           </nav>
+         
         </header>
       </div>
 
-      <div>
-        <h1>Make remote work</h1>
-        <p>
-          Get your team in sync, no matter your locantion. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </p>
-        <button>Learn more</button>
+      <div class="main-wrap">
+    <div class="main1">
+    <div class="main1-text">
+            <h1>Make <br>
+               remote work</h1>
+          <p>
+            Get your team in sync, no matter your locantion. <br>
+            Streamline processes,
+            create team rituals, and <br>
+            watch productivity soar.
+          </p>
+          <button class="btn-more">Learn more</button>
+    </div>
+          <img class="img-hero" src="./assets/image-hero-desktop.png" alt="">
+    </div>
+    <div class="main2">
         <img src="./assets/client-audiophile.svg" alt="" />
         <img src="./assets/client-databiz.svg" alt="" />
         <img src="./assets/client-maker.svg" alt="" />
         <img src="./assets/client-meet.svg" alt="" />
+    </div>
       </div>
     </main>
-
-    <footer></footer>
+    <footer>
+    
+    </footer>
   </body>
 </html>

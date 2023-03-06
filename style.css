@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-family: "Epilogue", sans-serif;
+  --bg-primary: hsl(0, 0%, 98%);
+  --tt-primary: hsl(0, 0%, 41%);
+  --tt-secondary: hsl(0, 0%, 8%);
+  --tt-btn-more: white;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+  max-width: 1440px;
+
+  background-color: var(--bg-primary);
+}
+
+body * {
+  font-family: var(--ff-family);
+}
+
+.navbar {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  gap: 8rem;
+  padding: 3rem;
+}
+
+.logo {
+  margin-top: 0.6rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+  padding-right: 58rem;
+}
+
+.nav-link {
+  color: var(--tt-primary);
+}
+
+.log {
+  display: flex;
+  gap: 2.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+#register {
+  border: solid 1px var(--tt-primary);
+  background: transparent;
+  border-radius: 99px;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main1 {
+  padding: 8rem 8rem 0 8rem;
+  display: flex;
+}
+
+.img-hero {
+  width: 50rem;
+  height: 70rem;
+  margin-left: 10rem;
+}
+
+.main1-text {
+  display: block;
+  padding-right: 2rem;
+}
+
+.main1-text h1 {
+  font-size: 8rem;
+  margin: 10rem 0 4rem;
+  color: var(--tt-secondary);
+}
+
+.main1-text p {
+  color: var(--tt-primary);
+  margin-bottom: 4rem;
+}
+
+
+.btn-more {
+  border: solid 1px var(--tt-secondary);
+  background: var(--tt-secondary);
+  border-radius: 99px;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: var(--tt-btn-more);
+}
+
+.main2 {
+  display: flex;
+  gap: 2rem;
+  margin: 0 0 8rem 8rem;
+  height: 2.5rem;
+  max-width: 2rem;
+}
+
+footer {
+  padding: 1rem;
+}
