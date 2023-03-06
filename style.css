@@ -9,6 +9,7 @@
   --ff-family: "Epilogue", sans-serif;
   --bg-primary: hsl(0, 0%, 98%);
   --tt-primary: hsl(0, 0%, 41%);
+  --tt-primary-hover: hsl(0, 0%, 24%);
   --tt-secondary: hsl(0, 0%, 8%);
   --tt-btn-more: white;
 }
@@ -50,6 +51,11 @@ body * {
 
 .nav-link {
   color: var(--tt-primary);
+  transition: color .4s;
+}
+
+.nav-link:hover {
+  color: var(--tt-primary-hover);
 }
 
 .log {
