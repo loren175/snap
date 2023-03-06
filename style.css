@@ -25,12 +25,18 @@ body * {
   font-family: var(--ff-family);
 }
 
+.hide {
+  opacity: 0;
+  cursor: default;
+}
+
 .navbar {
   display: flex;
   height: 3rem;
   align-items: center;
   gap: 8rem;
   padding: 3rem;
+  justify-content: space-between;
 }
 
 .logo {
@@ -40,7 +46,6 @@ body * {
 .nav-menu {
   display: flex;
   gap: 2rem;
-  padding-right: 58rem;
 }
 
 .nav-link {
