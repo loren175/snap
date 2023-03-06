@@ -67,6 +67,9 @@ body * {
 .nav-link {
   color: var(--tt-primary);
   transition: color 0.4s;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav-link:hover {
@@ -180,7 +183,8 @@ footer {
   }
 
   /* Animation */
-  .nav-display {
+  .nav-display,
+  .nav-link {
     display: block;
   }
   .nav-display.active .bar:nth-child(2) {
@@ -207,6 +211,7 @@ footer {
   .nav-item {
     margin: 16px 0;
   }
+
   .nav-menu.active {
     left: 0;
   }
