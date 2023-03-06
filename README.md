@@ -1,4 +1,4 @@
-# Snap Challenge (not finished)
+# Snap (em andamento)
  
 ![preview](./.github/preview.png)
 
