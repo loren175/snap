@@ -79,6 +79,7 @@ body * {
 .log {
   display: flex;
   gap: 2.5rem;
+  
 }
 
 ul {
@@ -92,11 +93,11 @@ a {
 button {
   border: none;
   cursor: pointer;
+  background: transparent;
 }
 
 #register {
   border: solid 1px var(--tt-primary);
-  background: transparent;
   border-radius: 99px;
   padding: 1.2rem 2rem;
   display: flex;
