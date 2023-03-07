@@ -142,6 +142,11 @@ button {
   align-items: center;
 
   color: var(--tt-btn-more);
+  transition: filter .3s;
+}
+
+.btn-more:hover {
+  filter: invert(1);
 }
 
 .main2 {
