@@ -40,6 +40,10 @@ body * {
   justify-content: space-between;
 }
 
+.navbar ul li:focus-within ul {
+  display: block;
+}
+
 .nav-display {
   display: none;
   cursor: pointer;
@@ -62,6 +66,7 @@ body * {
 .nav-menu {
   display: flex;
   gap: 2rem;
+  position: relative;
 }
 
 .nav-link {
@@ -76,10 +81,28 @@ body * {
   color: var(--tt-primary-hover);
 }
 
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: var(--bg-primary);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--tt-secondary);
+}
+
+.dropdown li {
+  margin: 1rem;
+}
+
+.dropdown img {
+  margin-right: 1rem;
+}
+
 .log {
   display: flex;
   gap: 2.5rem;
-  
 }
 
 ul {
@@ -142,7 +165,7 @@ button {
   align-items: center;
 
   color: var(--tt-btn-more);
-  transition: filter .3s;
+  transition: filter 0.3s;
 }
 
 .btn-more:hover {
