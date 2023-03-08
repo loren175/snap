@@ -1,4 +1,4 @@
-# Snap (Landing page)
+# Snap
  
 ![preview](./.github/preview.png)
 
