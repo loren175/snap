@@ -1,4 +1,4 @@
-# Snap (em andamento)
+# Snap 
  
 ![preview](./.github/preview.png)
 
