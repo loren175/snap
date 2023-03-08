@@ -77,6 +77,14 @@ body * {
   gap: 1rem;
 }
 
+.nav-link img {
+  transition: transform 0.3s;
+}
+
+.nav-link:focus-within img {
+  transform: rotate(3.142rad);
+}
+
 .nav-link:hover {
   color: var(--tt-primary-hover);
 }
@@ -207,8 +215,12 @@ footer {
   }
 
   .main2 {
-    display: flex;
-    gap: 6rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: center;
+    padding-left: 5rem;
   }
 
   /* Animation */
@@ -243,5 +255,9 @@ footer {
 
   .nav-menu.active {
     left: 0;
+  }
+
+  .hide {
+    display: none;
   }
 }
